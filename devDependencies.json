@@ -1,4 +1,6 @@
 {
+    "@types/prop-types": "^15.7.3",
+    "@types/styled-components": "^4.1.19",
     "babel-plugin-root-import": "^6.4.1",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
