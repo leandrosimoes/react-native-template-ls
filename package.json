@@ -1,4 +1,22 @@
 {
   "name": "react-native-template-ls",
-  "version": "1.0.2"
+  "version": "1.0.3",
+  "description": "This is my react-native initial setup that I have been using when I have to build a new application from scratch",
+  "keywords": [
+    "react-native",
+    "template",
+    "leandrosimoes",
+    "ls",
+    "react-navigation",
+    "reactotron",
+    "babel-root-import",
+    "axios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrosimoes/react-native-template-ls.git"
+  },
+  "homepage": "https://github.com/leandrosimoes/react-native-template-ls#readme",
+  "author": "Leandro Simões <leandro.simoes@outlook.com>",
+  "license": "MIT"
 }
