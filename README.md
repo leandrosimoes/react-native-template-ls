@@ -2,6 +2,8 @@
 
 This is my react-native initial setup that I have been using when I have to build a new application from scratch.
 
+[![npm version](https://badge.fury.io/js/react-native-template-ls.svg)](https://badge.fury.io/js/react-native-template-ls)
+
 ## Istalling
 
 `react-native init YOUR_APPLICATION_NAME --template ls`
