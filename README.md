@@ -1,10 +1,9 @@
 # React Native Template LS
 
+[![npm version](https://badge.fury.io/js/react-native-template-ls.svg)](https://badge.fury.io/js/react-native-template-ls)
 ![Node.js Package](https://github.com/leandrosimoes/react-native-template-ls/workflows/Node%2Ejs%20Package/badge.svg)
 
 This is my react-native initial setup that I have been using when I have to build a new application from scratch.
-
-[![npm version](https://badge.fury.io/js/react-native-template-ls.svg)](https://badge.fury.io/js/react-native-template-ls)
 
 ## Istalling
 
