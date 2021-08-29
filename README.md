@@ -1,6 +1,6 @@
 # React Native Template LS
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cd4ca9beaa8b4b00a33d9d4538078709)](https://app.codacy.com/manual/leandrosimoes/react-native-template-ls?utm_source=github.com&utm_medium=referral&utm_content=leandrosimoes/react-native-template-ls&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/65da41dfd6854b9e96785078f42172ad)](https://www.codacy.com/gh/leandrosimoes/react-native-template-ls/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=leandrosimoes/react-native-template-ls&amp;utm_campaign=Badge_Grade)
 [![npm version](https://badge.fury.io/js/react-native-template-ls.svg)](https://badge.fury.io/js/react-native-template-ls)
 ![Node.js Package](https://github.com/leandrosimoes/react-native-template-ls/workflows/Node%2Ejs%20Package/badge.svg)
 
