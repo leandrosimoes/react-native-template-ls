@@ -1,16 +1,12 @@
 {
   "name": "react-native-template-ls",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "This is my react-native initial setup that I have been using when I have to build a new application from scratch",
   "keywords": [
     "react-native",
     "template",
-    "leandrosimoes",
     "ls",
-    "react-navigation",
-    "reactotron",
-    "babel-root-import",
-    "axios"
+    "typescript"
   ],
   "repository": {
     "type": "git",
