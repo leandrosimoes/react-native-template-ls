@@ -4,17 +4,19 @@
 [![npm version](https://badge.fury.io/js/react-native-template-ls.svg)](https://badge.fury.io/js/react-native-template-ls)
 ![Node.js Package](https://github.com/leandrosimoes/react-native-template-ls/workflows/Node%2Ejs%20Package/badge.svg)
 
-This is my react-native initial setup that I have been using when I have to build a new application from scratch.
+Leandro Simões React Native Template
 
-## Istalling
+## Installation
 
 `react-native init YOUR_APPLICATION_NAME --template ls`
+
+PS: You must use the `@react-native-community/cli` instead of `react-native-cli`.
 
 ## Aditional configurations
 
 ### Android
 
-#### This is necessary to enable the the react-native-gesture-handler (for example the gestures to open the drawer navigation)
+#### This is necessary to enable the react-native-gesture-handler (E.g. pen the drawer navigation gestures)
 
 `android/app/src/main/java/com/YOUR_APPLICATION_NAME/MainActivity.java`
 ```java
@@ -26,11 +28,6 @@ import com.facebook.react.ReactActivity;
 + import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 
 public class MainActivity extends ReactActivity {
-
-  /**
-   * Returns the name of the main component registered from JavaScript. This is used to schedule
-   * rendering of the component.
-   */
   @Override
   protected String getMainComponentName() {
     return "YOUR_APPLICATION_NAME";
