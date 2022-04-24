@@ -1,6 +1,7 @@
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
 import { createDrawerNavigator } from '@react-navigation/drawer'
 import { createStackNavigator } from '@react-navigation/stack'
-import React from 'react'
 import { Dimensions } from 'react-native'
 import { EScreens } from '../@types'
 import HomeScreen from '../screens/Home'
@@ -20,11 +21,16 @@ const StackNavigator = () => {
 
 const App: React.FC = () => {
     return (
-        <Drawer.Navigator
-            drawerPosition='right'
-            drawerStyle={{ width: width - 50 }}>
-            <Drawer.Screen name={EScreens.MAIN} component={StackNavigator} />
-        </Drawer.Navigator>
+        <NavigationContainer>
+            <Drawer.Navigator
+                drawerPosition='right'
+                drawerStyle={{ width: width - 50 }}>
+                <Drawer.Screen
+                    name={EScreens.HOME}
+                    component={StackNavigator}
+                />
+            </Drawer.Navigator>
+        </NavigationContainer>
     )
 }
 

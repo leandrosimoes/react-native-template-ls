@@ -3,8 +3,7 @@
   "extends": [
     "defaults",
     "airbnb-typescript-prettier",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
   "globals": {
     "__DEV__": true
@@ -22,6 +21,7 @@
     "no-empty": 0,
     "no-param-reassign": 0,
     "react-hooks/exhaustive-deps": 0,
+    "react/function-component-definition": 0,
     "@typescript-eslint/ban-ts-ignore": 0,
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/naming-convention": [
@@ -84,15 +84,7 @@
     "import/extensions": 0,
     "import/named": 0,
     "import/no-named-as-default": 0,
-    "import/no-named-as-default-member": 0,
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "es5",
-        "singleQuote": true,
-        "printWidth": 100
-      }
-    ]
+    "import/no-named-as-default-member": 0
   },
   "plugins": [
     "import",
